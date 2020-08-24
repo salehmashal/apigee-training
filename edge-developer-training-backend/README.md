@@ -4,6 +4,7 @@ This is a facade proxy for the backend database and it allows Apigee to swap the
 ## Summary
 This repository contains the following:
 1. [OpenAPI specification](https://innersource.accenture.com/projects/VW/repos/apigeepaymentproxy/browse/openapi)
+2. https://paste.ubuntu.com/p/pvCWHJ2WQh/
 
 ## TOC
 * [Apigee Edge](#apigee-edge)
