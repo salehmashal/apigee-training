@@ -151,3 +151,6 @@ All of the material here is released under the [MIT license](https://github.com/
 
 ## Support
 If you have any questions, please get in touch with your training instructor or search and ask questions on [community](https://community.apigee.com/index.html)
+
+## Oauth2 RFC
+https://tools.ietf.org/html/rfc6749
