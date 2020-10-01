@@ -1,0 +1,62 @@
+swagger: '2.0'
+info:
+  title: Products
+  version: v1
+schemes:
+  - http
+  - https
+
+basePath: '/envintory/v1'
+
+paths:
+  /products:
+    parameters: 
+    - name: page
+      type: number
+      in: query
+    - name: size
+      type: number
+      in: query
+    get:
+      summary: to get product list
+      responses:
+        200:
+          description: On Success
+          schema:
+            type: object
+            properties:
+              metadata:
+                type: object
+                properties:
+                  page:
+                    type: number
+                  size:
+                    type: number
+                  count:
+                    type: number
+                  hasMore:
+                    type: boolean
+              data:  
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    category:
+                      type: array
+                      items:
+                        type: string
+                        
+                    images:
+                      type: array
+                      items:
+                        type: string
+                    name:
+                      type: string
+                    rate:
+                      type: number
+                    description:
+                      type: string
+
+                    
